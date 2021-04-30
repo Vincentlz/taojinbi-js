@@ -779,7 +779,7 @@ ui.emitter.on("create_options_menu", menu => {
 ui.emitter.on("options_item_selected", (e, item) => {
     switch (item.getTitle()) {
         case "关于":
-            alert("关于", "淘金币" + storage.get('taojinbi_version', '') + " 本APP完全免费，作者:Javis486，github下载地址：https://github.com/JavisPeng/taojinbi");
+            alert("关于", "淘金币" + storage.get('taojinbi_version', '') + " 多多支持！");
             break;
     }
     e.consumed = true;
